@@ -1,0 +1,29 @@
+USE cric_shop_api;
+
+DROP TABLE IF EXISTS lane_booking;
+
+CREATE TABLE lane_booking (
+	id INTEGER NOT NULL AUTO_INCREMENT,
+	user_id INTEGER NOT NULL,
+	lane_id INTEGER NOT NULL,
+	team_name VARCHAR(128) NOT NULL,
+	no_of_member INTEGER NOT NULL,
+	price DECIMAL(10,2) NOT NULL,
+	tax DECIMAL(10,2) NOT NULL DEFAULT 0,
+	price_after_discount DECIMAL(10,2) NOT NULL,
+	status ENUM(
+		'INITIATED',
+		'CONFIRMED',
+		'UPDATED',
+		'PENDING',
+		'CANCELLED',
+		'FAILED',
+		'COMPLETED'
+	) NOT NULL DEFAULT 'INITIATED',
+	started_at BIGINT NOT NULL,
+	finished_at BIGINT NOT NULL,
+	created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+	updated_at TIMESTAMP NOT NULL DEFAULT NOW() ON UPDATE NOW(),
+	deleted_at TIMESTAMP NULL DEFAULT NULL,
+	PRIMARY KEY (id)
+) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;

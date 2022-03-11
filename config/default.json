@@ -1,0 +1,103 @@
+{
+	"SERVER": {
+		"HOST": "http://localhost",
+		"PORT": 3001,
+		"SECRET": "9103f4fba1ce845d8d0996b11fca16f903c015a02379920a5f2a19cbad34a5a83b2dc685651be7d980d908be394c171b03bcfe612cac10a2cea4c0892306383d"
+	},
+	"CLIENT": {
+		"ORDER_COMPLETION_URL": "http://localhost:3002/order-status",
+		"BOOKING_COMPLETION_URL": "http://localhost:3002/booking-status"
+	},
+	"LOGGER": {
+		"FILE": {
+			"LEVEL": "debug",
+			"NAME": "app.log"
+		},
+		"CONSOLE": {
+			"LEVEL": "debug"
+		}
+	},
+	"MYSQL": {
+		"HOST": "localhost",
+		"USER": "root",
+		"PASSWORD": "root",
+		"DATABASE": "cric_shop_api",
+		"PORT": 8889,
+		"POOL_SIZE": 1000,
+		"TIMEOUT_SECS": 60
+	},
+	"SHIPPO": {
+		"TOKEN": "shippo_test_329fa277566ed27728e4f757a22286cfef204965",
+		"ADDRESS_FROM": {
+			"name": "US Cricket Store",
+			"street1": "215 Clayton St.",
+			"city": "San Francisco",
+			"state": "CA",
+			"zip": "94117",
+			"country": "US"
+		}
+	},
+	"PAYMENT": {
+		"PAYPAL": {
+			"CONFIG": {
+				"description": "PayPal payment",
+				"mode": "sandbox",
+				"client_id": "Ad24z8xOkFUajOsy4cfHBRYKkPgWD6xtwhbNQ22aloCzvwVP6T2NDNlmx4fuROw6FEeUPgBCzTzSKc4O",
+				"client_secret": "EHAHKsOI8c7G9tcMf3Ge8p1NE73PmrIiXS7UJzVJrEE1-Sdx15BF0MMBL0EKSGAsHq99zF3xuiBDNxzu",
+				"paypalCurrency": "USD",
+				"sandboxURL": "https://www.sandbox.paypal.com/"
+			},
+			"RETURN_URL": "http://3.128.50.225:3001/payment/paypal/success",
+			"CANCEL_URL": "http://3.128.50.225:3001/payment/paypal/cancel",
+			"CB_URL": "CB_URL",
+			"PERSONAL": {
+				"email": "sb-fwxdu7977136@personal.example.com",
+				"password": "EpXi2iH.",
+				"accountId": "YW3VCR4EX286L"
+			},
+			"BUSINESS": {
+				"email": "sb-azkkd7399066@business.example.com",
+				"password": "67B@uzl.",
+				"accountId": "MMVT5M74C6A92"
+			}
+		},
+		"STRIPE": {
+			"CONFIG": {
+				"description": "PayPal payment",
+				"mode": "sandbox",
+				"client_id": "Ad24z8xOkFUajOsy4cfHBRYKkPgWD6xtwhbNQ22aloCzvwVP6T2NDNlmx4fuROw6FEeUPgBCzTzSKc4O",
+				"client_secret": "EHAHKsOI8c7G9tcMf3Ge8p1NE73PmrIiXS7UJzVJrEE1-Sdx15BF0MMBL0EKSGAsHq99zF3xuiBDNxzu",
+				"paypalCurrency": "USD",
+				"sandboxURL": "https://www.sandbox.paypal.com/"
+			},
+			"RETURN_URL": "http://3.128.50.225:3001/payment/stripe/success",
+			"CANCEL_URL": "http://3.128.50.225:3001/payment/stripe/cancel",
+			"CB_URL": "CB_URL",
+			"PERSONAL": {
+				"email": "sb-fwxdu7977136@personal.example.com",
+				"password": "EpXi2iH.",
+				"accountId": "YW3VCR4EX286L"
+			},
+			"BUSINESS": {
+				"email": "sb-azkkd7399066@business.example.com",
+				"password": "67B@uzl.",
+				"accountId": "MMVT5M74C6A92"
+			}
+		}
+	},
+	"NOTIFICATION": {
+		"SMS": {
+			"TWILIO": {
+				"sid": "ACbec75fac6ac72e821594255a4725e283",
+				"authToken": "fea8c29a647a11f2f560e7a86aed99e2",
+				"from": "+15632395105"
+			}
+		},
+		"EMAIL": {
+			"SEND_GRID": {
+				"key": "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",
+				"from": "uscsoperation@gmail.com"
+			}
+		}
+	}
+}

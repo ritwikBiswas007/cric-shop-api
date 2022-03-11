@@ -1,0 +1,507 @@
+{
+    "GENERIC_INTERNAL_ERROR": {
+        "status": 500,
+        "code": "UE090",
+        "message": "Internal server error"
+    },
+    "DB_ERROR_CATEGORIES_FETCH": {
+        "status": 500,
+        "code": "FCD00",
+        "message": "DB error while fetching category data"
+    },
+    "DB_ERROR_CATEGORY_DETAIL_FETCH": {
+        "status": 500,
+        "code": "FCD01",
+        "message": "DB error while fetching category detail"
+    },
+    "DB_ERROR_PRODUCTS_FILTER_FETCH": {
+        "status": 500,
+        "code": "FFD02",
+        "message": "DB error while fetching products filter"
+    },
+    "DB_ERROR_SUB_CATEGORY_DETAIL_FETCH": {
+        "status": 500,
+        "code": "FCD02",
+        "message": "DB error while fetching sub-category detail data"
+    },
+    "DB_ERROR_PRODUCTS_FETCH": {
+        "status": 500,
+        "code": "FPD01",
+        "message": "DB error while fetching product data"
+    },
+    "DB_ERROR_PRODUCT_DETAIL_FETCH": {
+        "status": 500,
+        "code": "FPD02",
+        "message": "DB error while fetching selected product detail data"
+    },
+    "DB_ERROR_LANES_FETCH": {
+        "status": 500,
+        "code": "FLD01",
+        "message": "DB error while fetching lane data"
+    },
+    "DB_ERROR_LANE_DETAIL_FETCH": {
+        "status": 500,
+        "code": "FLD02",
+        "message": "DB error while fetching lane detail data"
+    },
+    "DB_ERROR_LANE_BOOKINGS_FETCH": {
+        "status": 500,
+        "code": "FLD03",
+        "message": "DB error while fetching lane bookings data"
+    },
+    "DB_ERROR_LANE_AVAILABILITY_FETCH": {
+        "status": 500,
+        "code": "FLD04",
+        "message": "DB error while fetching lane availability data"
+    },
+    "DB_ERROR_NEW_LANE_BOOKING": {
+        "status": 500,
+        "code": "BLD00",
+        "message": "DB error while creating new lane booking"
+    },
+    "DB_ERROR_UPDATE_LANE_BOOKING": {
+        "status": 500,
+        "code": "BLD00",
+        "message": "DB error while updating lane booking"
+    },
+    "DB_ERROR_CREATE_NEW_TXN": {
+        "status": 500,
+        "code": "CTD00",
+        "message": "DB error while creating new transaction"
+    },
+    "DB_ERROR_CHECK_DUPLICATE_USER_EMAIL": {
+        "status": 500,
+        "code": "DED01",
+        "message": "DB error while checking user exists with email"
+    },
+    "DB_ERROR_CHECK_DUPLICATE_USER_MOBILE": {
+        "status": 500,
+        "code": "DMD01",
+        "message": "DB error while checking user exists with mobile"
+    },
+    "DB_ERROR_CHECK_USER_EXISTENCE": {
+        "status": 500,
+        "code": "UED01",
+        "message": "DB error while checking user exists"
+    },
+    "DB_ERROR_USER_SIGN_UP": {
+        "status": 500,
+        "code": "SUD01",
+        "message": "DB error while insertion new user data"
+    },
+    "DB_ERROR_CART_FETCH": {
+        "status": 500,
+        "code": "CFD01",
+        "message": "DB error while fetching user cart"
+    },
+    "DB_ERROR_CART_UPDATE": {
+        "status": 500,
+        "code": "CUD01",
+        "message": "DB error while updating user cart"
+    },
+    "DB_ERROR_WISHLIST_FETCH": {
+        "status": 500,
+        "code": "WFD01",
+        "message": "DB error while fetching user wishlist"
+    },
+    "DB_ERROR_WISHLIST_UPDATE": {
+        "status": 500,
+        "code": "WUD01",
+        "message": "DB error while updating user wishlist"
+    },
+    "DB_ERROR_BASKET_FETCH": {
+        "status": 500,
+        "code": "KFD01",
+        "message": "DB error while fetching user basket"
+    },
+    "DB_ERROR_BASKET_UPDATE": {
+        "status": 500,
+        "code": "KUD01",
+        "message": "DB error while updating user basket"
+    },
+    "DB_ERROR_USER_ADDRESS_CREATE": {
+        "status": 500,
+        "code": "CAD00",
+        "message": "DB error while creating user address"
+    },
+    "DB_ERROR_USER_ADDRESS_FETCH": {
+        "status": 500,
+        "code": "FAD01",
+        "message": "DB error while fetching user address"
+    },
+    "DB_ERROR_ORDER_ADDRESS_FETCH": {
+        "status": 500,
+        "code": "FOD01",
+        "message": "DB error while fetching order address"
+    },
+    "DB_ERROR_TXN_DETAIL_FETCH": {
+        "status": 500,
+        "code": "TDD01",
+        "message": "DB error while fetching transaction detail"
+    },
+    "DB_ERROR_SHIPPING_DETAIL_FETCH": {
+        "status": 500,
+        "code": "SDD01",
+        "message": "DB error while fetching shipping detail"
+    },
+    "DB_ERROR_TXN_INITIATE": {
+        "status": 500,
+        "code": "TID01",
+        "message": "DB error while initiating transaction"
+    },
+    "DB_ERROR_TXN_COMPLETE": {
+        "status": 500,
+        "code": "TCD01",
+        "message": "DB error while completing transaction"
+    },
+    "DB_ERROR_ORDER_COMPLETE": {
+        "status": 500,
+        "code": "OCD01",
+        "message": "DB error while completing order"
+    },
+    "DB_ERROR_BOOKING_COMPLETE": {
+        "status": 500,
+        "code": "BCD01",
+        "message": "DB error while completing booking"
+    },
+    "DB_ERROR_USER_ORDER_CREATE": {
+        "status": 500,
+        "code": "BCD01",
+        "message": "DB error while creating user order"
+    },
+    "DB_ERROR_USER_ORDER_BOOK_FILL": {
+        "status": 500,
+        "code": "OFD00",
+        "message": "DB error while filling user order book"
+    },
+    "DB_ERROR_SHIPMENT_CREATE": {
+        "status": 500,
+        "code": "SID00",
+        "message": "DB error while creating shipment"
+    },
+    "DB_ERROR_SHIPMENT_INITIATE": {
+        "status": 500,
+        "code": "SID00",
+        "message": "DB error while initiating shipment"
+    },
+    "DB_ERROR_USER_ORDERS_FETCH": {
+        "status": 500,
+        "code": "FOD00",
+        "message": "DB error while fetching user orders"
+    },
+    "DB_ERROR_USER_ORDER_DETAIL_FETCH": {
+        "status": 500,
+        "code": "FOD01",
+        "message": "DB error while fetching user order detail"
+    },
+    "DB_ERROR_BOOKINGS_FETCH": {
+        "status": 500,
+        "code": "FBD00",
+        "message": "DB error while fetching lane bookings"
+    },
+    "DB_ERROR_BOOKING_DETAIL_FETCH": {
+        "status": 500,
+        "code": "FBD01",
+        "message": "DB error while fetching user booking detail"
+    },
+    "SIGN_UP_MISSING_NAME": {
+        "status": 400,
+        "code": "SUM01",
+        "message": "Missing name from sign up"
+    },
+    "SIGN_UP_MISSING_EMAIL": {
+        "status": 400,
+        "code": "SUM02",
+        "message": "Missing email from sign up"
+    },
+    "SIGN_UP_MISSING_MOBILE": {
+        "status": 400,
+        "code": "SUM03",
+        "message": "Missing mobile from sign up"
+    },
+    "SIGN_UP_MISSING_PASSWORD": {
+        "status": 400,
+        "code": "SUM04",
+        "message": "Missing password from sign up"
+    },
+    "SIGN_UP_INVALID_EMAIL": {
+        "status": 400,
+        "code": "SUV01",
+        "message": "Invalid email in sign up"
+    },
+    "SIGN_UP_INVALID_MOBILE": {
+        "status": 400,
+        "code": "SUV02",
+        "message": "Invalid mobile in sign up"
+    },
+    "SIGN_UP_INVALID_PASSWORD": {
+        "status": 400,
+        "code": "SUV03",
+        "message": "Invalid password in sign up"
+    },
+    "SIGN_UP_DUPLICATE_EMAIL": {
+        "status": 400,
+        "code": "SUD01",
+        "message": "Email already exists. Please login using this email."
+    },
+    "SIGN_UP_DUPLICATE_MOBILE": {
+        "status": 400,
+        "code": "SUD02",
+        "message": "Mobile already exists. Please login using this mobile."
+    },
+    "SIGN_UP_ERROR_ENCRYPTING_PASSWORD": {
+        "status": 500,
+        "code": "SUE01",
+        "message": "Error while encrypting password."
+    },
+    "SIGN_IN_MISSING_PASSWORD": {
+        "status": 400,
+        "code": "SIM01",
+        "message": "Missing password from sign in"
+    },
+    "SIGN_IN_MISSING_EMAIL": {
+        "status": 400,
+        "code": "SIM01",
+        "message": "Missing email from sign in"
+    },
+    "SIGN_IN_USER_NOT_EXISTS": {
+        "status": 400,
+        "code": "SIU01",
+        "message": "User does not exists"
+    },
+    "SIGN_IN_ERROR_PASSWORD_VALIDATION_FAILED": {
+        "status": 500,
+        "code": "SIP01",
+        "message": "Error while validation password"
+    },
+    "SIGN_IN_ERROR_PASSWORD_MISMATCH": {
+        "status": 400,
+        "code": "SIP02",
+        "message": "Password did not match with existing password"
+    },
+    "RESET_PASSWORD_IS_SAME": {
+        "status": 400,
+        "code": "RPS00",
+        "message": "Password can not be same with previous one"
+    },
+    "SIGN_IN_ERROR_TOKEN_CREATION": {
+        "status": 500,
+        "code": "SIT01",
+        "message": "Failed to create JWT token for the user"
+    },
+    "AUTH_ERROR_INVALID_TOKEN": {
+        "status": 400,
+        "code": "AUT01",
+        "message": "Invalid JWT token"
+    },
+    "AUTH_ERROR_EXPIRED_TOKEN": {
+        "status": 400,
+        "code": "AUT02",
+        "message": "Expired JWT token"
+    },
+    "TXN_MISSING_ID": {
+        "status": 400,
+        "code": "IPM01",
+        "message": "Missing transaction id while processing payment"
+    },
+    "TXN_MISSING_AMOUNT": {
+        "status": 400,
+        "code": "IPM02",
+        "message": "Missing amount while processing payment"
+    },
+    "TXN_MISSING_CB_SUCCESS_URL": {
+        "status": 400,
+        "code": "IPM02",
+        "message": "Missing call back URL while processing payment"
+    },
+    "PAYPAL_PAYMENT_INITIATE_ERROR": {
+        "status": 500,
+        "code": "IPP01",
+        "message": "Error occurred while proceeding to payment, you can restart again"
+    },
+    "PAYPAL_PAYMENT_INITIATE_UNKNOWN_PAYMENT_METHOD": {
+        "status": 500,
+        "code": "IPP02",
+        "message": "Error occurred while creating new payment object. Unknown payment method"
+    },
+    "STRIPE_PAYMENT_INITIATE_ERROR": {
+        "status": 500,
+        "code": "IPP03",
+        "message": "Error occurred while proceeding to payment, you can restart again"
+    },
+    "STRIPE_PAYMENT_INITIATE_UNKNOWN_PAYMENT_METHOD": {
+        "status": 500,
+        "code": "IPP04",
+        "message": "Error occurred while creating new payment object. Unknown payment method"
+    },
+    "SHIPPING_COST_FETCH_ERROR": {
+        "status": 500,
+        "code": "SCF01",
+        "message": "Error occurred while fetching shipping cost"
+    },
+    "SHIPPING_COST_INVALID_RESPONSE": {
+        "status": 500,
+        "code": "SCF02",
+        "message": "Error occurred while creating shipping cost. Response does not have success status."
+    },
+    "SHIPPING_COST_FETCH_ERROR_NO_USPS_RATE": {
+        "status": 500,
+        "code": "SCF03",
+        "message": "Error occurred while fetching shipping cost. No Shipping cost rate available for USPS"
+    },
+    "SHIPPING_TXN_CREATE_ERROR": {
+        "status": 500,
+        "code": "STC01",
+        "message": "Error occurred while creating shipment."
+    },
+    "SHIPPING_TXN_INVALID_RESPONSE": {
+        "status": 500,
+        "code": "STC02",
+        "message": "Error occurred while creating shipment. Response does not have success status."
+    },
+    "LANE_INVALID_ID": {
+        "status": 400,
+        "code": "LBP01",
+        "message": "Requested lane is not available"
+    },
+    "CHECK_LANE_AVAILABILITY_MISSING_FROM": {
+        "status": 400,
+        "code": "LAM01",
+        "message": "Lane availability missing from"
+    },
+    "CHECK_LANE_AVAILABILITY_MISSING_TO": {
+        "status": 400,
+        "code": "LAM02",
+        "message": "Lane availability missing to"
+    },
+    "CHECK_LANE_AVAILABILITY_MISSING_MEMBER": {
+        "status": 400,
+        "code": "LAM03",
+        "message": "Lane availability missing member"
+    },
+    "CHECK_LANE_AVAILABILITY_INVALID_FROM": {
+        "status": 400,
+        "code": "LAI01",
+        "message": "Lane availability invalid from"
+    },
+    "CHECK_LANE_AVAILABILITY_INVALID_TO": {
+        "status": 400,
+        "code": "LAI02",
+        "message": "Lane availability invalid to"
+    },
+    "CHECK_LANE_AVAILABILITY_INVALID_MEMBER": {
+        "status": 400,
+        "code": "LAI03",
+        "message": "Lane availability invalid member"
+    },
+    "LANE_BOOKING_MISSING_LANE_ID": {
+        "status": 400,
+        "code": "LBP00",
+        "message": "Lane booking missing laneId"
+    },
+    "LANE_BOOKING_MISSING_FROM": {
+        "status": 400,
+        "code": "LBP01",
+        "message": "Lane booking missing from"
+    },
+    "LANE_BOOKING_MISSING_TO": {
+        "status": 400,
+        "code": "LBP02",
+        "message": "Lane booking missing to"
+    },
+    "LANE_BOOKING_MISSING_MEMBER": {
+        "status": 400,
+        "code": "LBP03",
+        "message": "Lane booking missing member"
+    },
+    "LANE_BOOKING_MISSING_TEAM_NAME": {
+        "status": 400,
+        "code": "LBP04",
+        "message": "Lane booking missing team name"
+    },
+    "LANE_BOOKING_INVALID_FROM": {
+        "status": 400,
+        "code": "LBP03",
+        "message": "Lane booking invalid from"
+    },
+    "LANE_BOOKING_INVALID_TO": {
+        "status": 400,
+        "code": "LBP03",
+        "message": "Lane booking invalid to"
+    },
+    "LANE_BOOKING_INVALID_MEMBER": {
+        "status": 400,
+        "code": "LBP03",
+        "message": "Lane booking invalid member"
+    },
+    "LANE_BOOKING_OLD_DATE": {
+        "status": 400,
+        "code": "LBP04",
+        "message": "Lane booking can not book for old date"
+    },
+    "LANE_BOOKING_BEYOND_FUTURE_WINDOW": {
+        "status": 400,
+        "code": "LBP05",
+        "message": "Lane booking can not book beyond future window"
+    },
+    "LANE_BOOKING_ALREADY_BOOKED": {
+        "status": 400,
+        "code": "LBP06",
+        "message": "Lane already booked for this slot"
+    },
+    "NO_ITEMS_IN_CART_FOR_CHECKOUT": {
+        "status": 400,
+        "code": "ECC01",
+        "message": "No items in cart for checkout"
+    },
+    "NO_ITEMS_IN_BASKET_FOR_CHECKOUT": {
+        "status": 400,
+        "code": "ECC01",
+        "message": "No items in basket for checkout"
+    },
+    "SHIPPING_NAME_MISSING": {
+        "status": 400,
+        "code": "SNN00",
+        "message": "Missing name in shipping address"
+    },
+    "SHIPPING_MOBILE_MISSING": {
+        "status": 400,
+        "code": "SNM00",
+        "message": "Missing mobile in shipping address"
+    },
+    "SHIPPING_STREET_MISSING": {
+        "status": 400,
+        "code": "SNM00",
+        "message": "Missing street in shipping address"
+    },
+    "SHIPPING_CITY_MISSING": {
+        "status": 400,
+        "code": "SNM00",
+        "message": "Missing city in shipping address"
+    },
+    "SHIPPING_STATE_MISSING": {
+        "status": 400,
+        "code": "SNM00",
+        "message": "Missing state in shipping address"
+    },
+    "SHIPPING_COUNTRY_MISSING": {
+        "status": 400,
+        "code": "SNM00",
+        "message": "Missing country in shipping address"
+    },
+    "SHIPPING_ZIP_MISSING": {
+        "status": 400,
+        "code": "SNM00",
+        "message": "Missing zip in shipping address"
+    },
+    "SHIPPING_INVALID_ADDRESS_ID": {
+        "status": 400,
+        "code": "SNM00",
+        "message": "Invalid addressId in shipping address"
+    },
+    "UNHANDLED_SERVER_ERROR": {
+        "status": 500,
+        "code": "UNS00",
+        "message": "Unhandled error from server"
+    }
+}

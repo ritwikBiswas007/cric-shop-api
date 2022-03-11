@@ -1,0 +1,167 @@
+debug:2022-03-04 11:05:56:	ROOT
+debug:2022-03-04 11:05:56:	::1 - - [04/Mar/2022:05:35:56 +0000] "GET / HTTP/1.1" 200 4 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:05:57:	::1 - - [04/Mar/2022:05:35:57 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:17:07:	Fetch products list
+error:2022-03-04 11:17:07:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:17:07:	::1 - - [04/Mar/2022:05:47:07 +0000] "GET /product HTTP/1.1" 500 281 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:17:07:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:17:07:	::1 - - [04/Mar/2022:05:47:07 +0000] "GET /category HTTP/1.1" 500 282 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:17:10:	Fetch products list
+error:2022-03-04 11:17:10:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:17:10:	::1 - - [04/Mar/2022:05:47:10 +0000] "GET /category HTTP/1.1" 500 282 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:17:10:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:17:10:	::1 - - [04/Mar/2022:05:47:10 +0000] "GET /product HTTP/1.1" 500 281 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:17:37:	Fetch products list
+error:2022-03-04 11:17:37:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:17:37:	::1 - - [04/Mar/2022:05:47:37 +0000] "GET /product HTTP/1.1" 500 281 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:17:37:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:17:37:	::1 - - [04/Mar/2022:05:47:37 +0000] "GET /category HTTP/1.1" 500 282 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:17:58:	Fetch products list
+error:2022-03-04 11:17:58:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:17:58:	::1 - - [04/Mar/2022:05:47:58 +0000] "GET /category HTTP/1.1" 500 282 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:17:58:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:17:58:	::1 - - [04/Mar/2022:05:47:58 +0000] "GET /product HTTP/1.1" 500 281 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:20:09:	Fetch products list
+error:2022-03-04 11:20:09:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:20:09:	::1 - - [04/Mar/2022:05:50:09 +0000] "GET /category HTTP/1.1" 500 282 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:20:09:	[object Object] ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+debug:2022-03-04 11:20:09:	::1 - - [04/Mar/2022:05:50:09 +0000] "GET /product HTTP/1.1" 500 281 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:23:34:	Fetch products list
+error:2022-03-04 11:23:34:	[object Object] ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+debug:2022-03-04 11:23:34:	::1 - - [04/Mar/2022:05:53:34 +0000] "GET /product HTTP/1.1" 500 240 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:23:34:	[object Object] ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+debug:2022-03-04 11:23:34:	::1 - - [04/Mar/2022:05:53:34 +0000] "GET /category HTTP/1.1" 500 241 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:46:19:	Fetch products list
+error:2022-03-04 11:46:19:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_products does not exist
+debug:2022-03-04 11:46:19:	::1 - - [04/Mar/2022:06:16:19 +0000] "GET /product HTTP/1.1" 500 340 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:46:19:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_categories does not exist
+debug:2022-03-04 11:46:19:	::1 - - [04/Mar/2022:06:16:19 +0000] "GET /category HTTP/1.1" 500 266 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:51:35:	Fetch products list
+error:2022-03-04 11:51:35:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_categories does not exist
+debug:2022-03-04 11:51:35:	::1 - - [04/Mar/2022:06:21:35 +0000] "GET /category HTTP/1.1" 500 266 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:51:35:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_products does not exist
+debug:2022-03-04 11:51:35:	::1 - - [04/Mar/2022:06:21:35 +0000] "GET /product HTTP/1.1" 500 340 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:51:48:	Fetch products list
+error:2022-03-04 11:51:48:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_categories does not exist
+debug:2022-03-04 11:51:48:	::1 - - [04/Mar/2022:06:21:48 +0000] "GET /category HTTP/1.1" 500 266 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:51:48:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_products does not exist
+debug:2022-03-04 11:51:48:	::1 - - [04/Mar/2022:06:21:48 +0000] "GET /product HTTP/1.1" 500 340 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:52:24:	Fetch products list
+error:2022-03-04 11:52:24:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_products does not exist
+debug:2022-03-04 11:52:24:	::1 - - [04/Mar/2022:06:22:24 +0000] "GET /product HTTP/1.1" 500 340 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:52:24:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_categories does not exist
+debug:2022-03-04 11:52:24:	::1 - - [04/Mar/2022:06:22:24 +0000] "GET /category HTTP/1.1" 500 266 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:55:20:	Fetch products list
+error:2022-03-04 11:55:20:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_categories does not exist
+debug:2022-03-04 11:55:20:	::1 - - [04/Mar/2022:06:25:20 +0000] "GET /category HTTP/1.1" 500 266 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:55:20:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 11:55:20:	::1 - - [04/Mar/2022:06:25:20 +0000] "GET /product HTTP/1.1" 500 361 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:56:00:	Fetch products list
+debug:2022-03-04 11:56:00:	[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+debug:2022-03-04 11:56:00:	::1 - - [04/Mar/2022:06:26:00 +0000] "GET /category HTTP/1.1" 200 287 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:56:00:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 11:56:00:	::1 - - [04/Mar/2022:06:26:00 +0000] "GET /product HTTP/1.1" 500 361 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:56:10:	Fetch category detail
+debug:2022-03-04 11:56:10:	[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+debug:2022-03-04 11:56:10:	::1 - - [04/Mar/2022:06:26:10 +0000] "GET /category HTTP/1.1" 200 287 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:56:10:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_category_detail does not exist
+debug:2022-03-04 11:56:10:	::1 - - [04/Mar/2022:06:26:10 +0000] "GET /category/6 HTTP/1.1" 500 279 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:56:10:	Fetch products list
+error:2022-03-04 11:56:10:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 11:56:10:	::1 - - [04/Mar/2022:06:26:10 +0000] "GET /product?categoryId=5&idealFor=Adult HTTP/1.1" 500 363 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:56:10:	Fetch products list
+debug:2022-03-04 11:56:10:	Fetch products list
+error:2022-03-04 11:56:10:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 11:56:10:	::1 - - [04/Mar/2022:06:26:10 +0000] "GET /product?categoryId=5&idealFor=Adult&priceLte=5000&priceGte=0 HTTP/1.1" 500 364 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:56:10:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 11:56:10:	::1 - - [04/Mar/2022:06:26:10 +0000] "GET /product?categoryId=5&idealFor=Adult&priceGte=0 HTTP/1.1" 500 362 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:58:09:	Fetch category detail
+debug:2022-03-04 11:58:09:	[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+debug:2022-03-04 11:58:09:	::1 - - [04/Mar/2022:06:28:09 +0000] "GET /category HTTP/1.1" 200 287 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:58:09:	Fetch products list
+debug:2022-03-04 11:58:09:	[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+debug:2022-03-04 11:58:09:	::1 - - [04/Mar/2022:06:28:09 +0000] "GET /category HTTP/1.1" 200 287 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:58:09:	Fetch products list
+error:2022-03-04 11:58:09:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_products does not exist
+debug:2022-03-04 11:58:09:	::1 - - [04/Mar/2022:06:28:09 +0000] "GET /product?categoryId=5&idealFor=Adult&priceGte=0 HTTP/1.1" 500 341 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:58:09:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_products does not exist
+debug:2022-03-04 11:58:09:	::1 - - [04/Mar/2022:06:28:09 +0000] "GET /product?categoryId=5&idealFor=Adult&priceLte=5000&priceGte=0 HTTP/1.1" 500 343 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:58:09:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'categories.image' in 'field list'
+debug:2022-03-04 11:58:09:	::1 - - [04/Mar/2022:06:28:09 +0000] "GET /category/6 HTTP/1.1" 500 263 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:58:09:	Fetch products list
+error:2022-03-04 11:58:09:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_products does not exist
+debug:2022-03-04 11:58:09:	::1 - - [04/Mar/2022:06:28:09 +0000] "GET /product?categoryId=5&idealFor=Adult&priceGte=0 HTTP/1.1" 500 341 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:58:17:	Fetch products list
+error:2022-03-04 11:58:17:	[object Object] ER_SP_DOES_NOT_EXIST: PROCEDURE cric_shop_api.SP_fetch_products does not exist
+debug:2022-03-04 11:58:17:	::1 - - [04/Mar/2022:06:28:17 +0000] "GET /product HTTP/1.1" 500 340 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 11:59:49:	Fetch products list
+debug:2022-03-04 11:59:49:	[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+debug:2022-03-04 11:59:49:	::1 - - [04/Mar/2022:06:29:49 +0000] "GET /category HTTP/1.1" 200 287 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 11:59:49:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 11:59:49:	::1 - - [04/Mar/2022:06:29:49 +0000] "GET /product HTTP/1.1" 500 361 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 12:01:52:	Fetch products list
+debug:2022-03-04 12:01:52:	[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+debug:2022-03-04 12:01:52:	::1 - - [04/Mar/2022:06:31:52 +0000] "GET /category HTTP/1.1" 200 287 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 12:01:52:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 12:01:52:	::1 - - [04/Mar/2022:06:31:52 +0000] "GET /product HTTP/1.1" 500 361 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 12:02:10:	Fetch category detail
+debug:2022-03-04 12:02:10:	[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+debug:2022-03-04 12:02:10:	::1 - - [04/Mar/2022:06:32:10 +0000] "GET /category HTTP/1.1" 200 287 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 12:02:10:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'categories.image' in 'field list'
+debug:2022-03-04 12:02:10:	::1 - - [04/Mar/2022:06:32:10 +0000] "GET /category/4 HTTP/1.1" 500 263 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+debug:2022-03-04 12:02:10:	Fetch products list
+debug:2022-03-04 12:02:10:	Fetch products list
+debug:2022-03-04 12:02:10:	Fetch products list
+error:2022-03-04 12:02:10:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 12:02:10:	::1 - - [04/Mar/2022:06:32:10 +0000] "GET /product?categoryId=2&idealFor=Adult HTTP/1.1" 500 363 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 12:02:10:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 12:02:10:	::1 - - [04/Mar/2022:06:32:10 +0000] "GET /product?categoryId=2&idealFor=Adult&priceLte=5000&priceGte=0 HTTP/1.1" 500 364 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+error:2022-03-04 12:02:10:	[object Object] ER_BAD_FIELD_ERROR: Unknown column 'products.product_filter_custom_field1' in 'IN/ALL/ANY subquery'
+debug:2022-03-04 12:02:10:	::1 - - [04/Mar/2022:06:32:10 +0000] "GET /product?categoryId=2&idealFor=Adult&priceGte=0 HTTP/1.1" 500 362 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
